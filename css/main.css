@@ -1,0 +1,123 @@
+/*#121212*/
+/*#181818*/
+/*#ffffff*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, monospace;
+}
+
+body {
+    background-color: #121212;
+}
+
+.container {
+    background-color: #181818;
+    display: flex;
+    flex-direction: column;
+    margin: 0 150px;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    font-size: 2em;
+}
+
+.header > .nav {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    flex-grow: 1;
+}
+
+.link:hover {
+    opacity: 0.9;
+    color: #ffdb4d;
+}
+
+.sliderfl {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.slidertext {
+    font-family: 'Corbel', monospace;
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.centerflex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+}
+
+.goods {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    justify-content: space-around;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.goods img {
+    border: 2px solid #212029;
+    width: 235px;
+    height: 235px;
+}
+
+.cont img {
+    border: 2px solid #212029;
+    width: 235px;
+    height: 235px;
+}
+
+.topbutton {
+    color: white;
+    width: 60px;
+    border: 2px solid #ccc;
+    background: #212029;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+}
+
+.staff {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    justify-content: space-around;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.staff img {
+    border: 2px solid #212029;
+    width: 235px;
+    height: 235px;
+}

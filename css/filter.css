@@ -1,0 +1,63 @@
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"][id="blue"]:checked ~ .filter .items .red,
+input[type="radio"][id="blue"]:checked ~ .filter .items .green,
+input[type="radio"][id="blue"]:checked ~ .filter .items .yellow,
+input[type="radio"][id="blue"]:checked ~ .filter .items .purple {
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+}
+
+input[type="radio"][id="red"]:checked ~ .filter .items .blue,
+input[type="radio"][id="red"]:checked ~ .filter .items .green,
+input[type="radio"][id="red"]:checked ~ .filter .items .purple,
+input[type="radio"][id="red"]:checked ~ .filter .items .yellow
+{
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+}
+
+input[type="radio"][id="green"]:checked ~ .filter .items .blue,
+input[type="radio"][id="green"]:checked ~ .filter .items .red,
+input[type="radio"][id="green"]:checked ~ .filter .items .yellow,
+input[type="radio"][id="green"]:checked ~ .filter .items .purple
+{
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+}
+
+input[type="radio"][id="yellow"]:checked ~ .filter .items .blue,
+input[type="radio"][id="yellow"]:checked ~ .filter .items .red,
+input[type="radio"][id="yellow"]:checked ~ .filter .items .green,
+input[type="radio"][id="yellow"]:checked ~ .filter .items .purple
+{
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+}
+
+input[type="radio"][id="purple"]:checked ~ .filter .items .blue,
+input[type="radio"][id="purple"]:checked ~ .filter .items .red,
+input[type="radio"][id="purple"]:checked ~ .filter .items .green,
+input[type="radio"][id="purple"]:checked ~ .filter .items .yellow
+{
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+}
+
