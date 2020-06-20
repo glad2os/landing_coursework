@@ -26,7 +26,21 @@ body {
     font-size: 2em;
 }
 
+.header2 {
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
 .header > .nav {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    flex-grow: 1;
+}
+
+.header2 > .nav {
     display: flex;
     justify-content: space-around;
     align-self: center;
@@ -36,6 +50,16 @@ body {
 .link:hover {
     opacity: 0.9;
     color: #ffdb4d;
+}
+
+.link2:hover {
+    opacity: 0.9;
+    color: #ffdb4d;
+}
+
+.link2 {
+    text-underline-color: white;
+    text-decoration: underline
 }
 
 .sliderfl {
@@ -120,4 +144,12 @@ body {
     border: 2px solid #212029;
     width: 235px;
     height: 235px;
+}
+
+.form input {
+    font-size: 1.5em;
+}
+
+.form {
+    margin: 0 15%;
 }
